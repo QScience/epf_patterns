@@ -1,0 +1,199 @@
+---
+info:
+  title: Untitled Pattern
+  category: General
+  description: No description
+  version: 1.0
+  core: x.y
+  author: admin
+  author_email: nbboob@gmail.com
+  author_website: http://physpc140.unifr.ch
+modules:
+  - user
+role:
+  - 
+    create:
+      tag: role
+      name: authenticated user
+  - 
+    create:
+      tag: role
+      name: administrator
+permission:
+  - 
+    modify:
+      tag: permission
+      role: anonymous user
+      value:
+        - access comments
+        - access content
+        - access encrypt submissions
+        - access overlay
+        - access user profiles
+        - create blog content
+        - create book content
+        - create bookreview content
+        - create event content
+        - create institution content
+        - create news content
+        - create paper content
+        - create paper_from_arxiv content
+        - post comments
+        - search content
+        - use advanced search
+        - use custom search
+        - use text format filtered_html
+  - 
+    modify:
+      tag: permission
+      role: authenticated user
+      value:
+        - access comments
+        - access content
+        - access encrypt submissions
+        - access overlay
+        - access user profiles
+        - create blog content
+        - create book content
+        - create bookreview content
+        - create event content
+        - create institution content
+        - create news content
+        - create paper content
+        - create paper_from_arxiv content
+        - delete own blog content
+        - delete own bookreview content
+        - delete own event content
+        - delete own news content
+        - delete own paper content
+        - delete own paper_from_arxiv content
+        - edit own blog content
+        - edit own bookreview content
+        - edit own event content
+        - edit own news content
+        - edit own paper content
+        - edit own paper_from_arxiv content
+        - plus1 vote on comment
+        - plus1 vote on node
+        - post comments
+        - search content
+        - skip comment approval
+        - use advanced search
+        - use custom search
+        - use text format filtered_html
+        - view own unpublished content
+  - 
+    modify:
+      tag: permission
+      role: administrator
+      value:
+        - access administration pages
+        - access all views
+        - access comments
+        - access content
+        - access content overview
+        - access contextual links
+        - access dashboard
+        - access encrypt submissions
+        - access overlay
+        - access site in maintenance mode
+        - access site reports
+        - access statistics
+        - access toolbar
+        - access user profiles
+        - administer actions
+        - administer advanced pane settings
+        - administer blocks
+        - administer comments
+        - administer content types
+        - administer custom search
+        - administer date tools
+        - administer encrypt submissions
+        - administer filters
+        - administer image styles
+        - administer menu
+        - administer mini panels
+        - administer modules
+        - administer nodes
+        - administer page manager
+        - administer pane access
+        - administer panel-nodes
+        - administer panels layouts
+        - administer panels styles
+        - administer password policies
+        - administer pathauto
+        - administer patterns
+        - administer permissions
+        - administer QTR
+        - administer search
+        - administer shortcuts
+        - administer site configuration
+        - administer software updates
+        - administer statistics
+        - administer taxonomy
+        - administer Terms and Conditions
+        - administer the plus1 voting widget
+        - administer themes
+        - administer url aliases
+        - administer users
+        - administer views
+        - administer voting api
+        - block IP addresses
+        - bypass node access
+        - cancel account
+        - change layouts in place editing
+        - change own username
+        - create article content
+        - create mini panels
+        - create page content
+        - create panel-nodes
+        - create url aliases
+        - customize shortcut links
+        - delete any article content
+        - delete any page content
+        - delete any panel-nodes
+        - delete own article content
+        - delete own page content
+        - delete own panel-nodes
+        - delete revisions
+        - delete terms in 1
+        - edit any article content
+        - edit any page content
+        - edit any panel-nodes
+        - edit own article content
+        - edit own comments
+        - edit own page content
+        - edit own panel-nodes
+        - edit terms in 1
+        - force password change
+        - get patterns
+        - migration information
+        - notify of path changes
+        - plus1 vote on comment
+        - plus1 vote on node
+        - plus1 vote on taxonomy_term
+        - post comments
+        - public patterns
+        - revert revisions
+        - search content
+        - select account cancellation method
+        - skip comment approval
+        - switch shortcut sets
+        - unblock expired accounts
+        - use advanced search
+        - use custom search
+        - use page manager
+        - use panels caching features
+        - use panels dashboard
+        - use panels in place editing
+        - use panels locks
+        - use PHP for title patterns
+        - use text format filtered_html
+        - use text format full_html
+        - view date repeats
+        - view own unpublished content
+        - view pane admin links
+        - view post access counter
+        - view revisions
+        - view Terms and Conditions
+        - view the administration theme

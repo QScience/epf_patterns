@@ -1,0 +1,193 @@
+---
+info:
+  title: Untitled Pattern
+  category: General
+  description: No description
+  version: 1.0
+  core: x.y
+  author: admin
+  author_email: nbboob@gmail.com
+  author_website: http://physpc140.unifr.ch
+modules:
+  - node
+content_type:
+  - 
+    create:
+      tag: content_type
+      type: blog
+      name: Blog entry
+      base: blog
+      module: blog
+      description: >
+        Use for multi-user blogs. Every user
+        gets a personal blog.
+      help:
+      has_title: 1
+      title_label: Title
+      custom: 0
+      modified: 1
+      locked: 1
+      disabled: false
+      orig_type: blog
+      disabled_changed: false
+  - 
+    create:
+      tag: content_type
+      name: Panel
+      base: panels_node_hook
+      body_label: Teaser
+      description: >
+        A panel layout broken up into rows and
+        columns.
+      type: panel
+      help:
+      custom: 0
+      modified: 0
+      locked: 1
+      disabled: false
+      is_new: 1
+      has_title: 1
+      title_label: Title
+      module: panels_node
+      orig_type: panel
+      disabled_changed: false
+  - 
+    create:
+      tag: content_type
+      type: article
+      name: Article
+      base: node_content
+      module: node
+      description:
+      help:
+      has_title: 1
+      title_label: Title
+      custom: 1
+      modified: 1
+      locked: 0
+      disabled: 0
+      orig_type: article
+      disabled_changed: false
+  - 
+    create:
+      tag: content_type
+      type: bookreview
+      name: Book Review
+      base: node_content
+      module: node
+      description: A type of content to show book reviews.
+      help:
+      has_title: 1
+      title_label: Book title
+      custom: 1
+      modified: 1
+      locked: 0
+      disabled: 0
+      orig_type: bookreview
+      disabled_changed: false
+  - 
+    create:
+      tag: content_type
+      type: editorial
+      name: Editorial
+      base: node_content
+      module: node
+      description: The Editorial content type.
+      help:
+      has_title: 1
+      title_label: Editorial title
+      custom: 1
+      modified: 1
+      locked: 0
+      disabled: 0
+      orig_type: editorial
+      disabled_changed: false
+  - 
+    create:
+      tag: content_type
+      type: event
+      name: Event
+      base: node_content
+      module: node
+      description: A type of content to describe events.
+      help:
+      has_title: 1
+      title_label: Event title
+      custom: 1
+      modified: 1
+      locked: 0
+      disabled: 0
+      orig_type: event
+      disabled_changed: false
+  - 
+    create:
+      tag: content_type
+      type: jobs_opening
+      name: Job openings
+      base: node_content
+      module: node
+      description: job offer content type
+      help:
+      has_title: 1
+      title_label: Title
+      custom: 1
+      modified: 1
+      locked: 0
+      disabled: 0
+      orig_type: jobs_opening
+      disabled_changed: false
+  - 
+    create:
+      tag: content_type
+      type: news
+      name: News
+      base: node_content
+      module: node
+      description: A type of content to describe news
+      help:
+      has_title: 1
+      title_label: News title
+      custom: 1
+      modified: 1
+      locked: 0
+      disabled: 0
+      orig_type: news
+      disabled_changed: false
+  - 
+    create:
+      tag: content_type
+      type: paper
+      name: Paper
+      base: node_content
+      module: node
+      description: >
+        Scientific paper type which allows users
+        to vote.
+      help:
+      has_title: 1
+      title_label: Paper title
+      custom: 1
+      modified: 1
+      locked: 0
+      disabled: 0
+      orig_type: paper
+      disabled_changed: false
+  - 
+    create:
+      tag: content_type
+      type: paper_from_arxiv
+      name: Paper from arxiv
+      base: node_content
+      module: node
+      description: >
+        Scientific paper type If the paper is
+        posted on arXiv.org
+      help:
+      has_title: 1
+      title_label: Title
+      custom: 1
+      modified: 1
+      locked: 0
+      disabled: 0
+      orig_type: paper_from_arxiv
+      disabled_changed: false
